@@ -7,3 +7,6 @@ permission:
 jobs: 
   Terraform-init-plan: 
   runs-on: newrunner
+  steps: 
+  - name: Checkout
+    uses: actions/checkout@v5.0.0
