@@ -6,4 +6,6 @@ permission:
   contents: read
 jobs: 
   Terraform-init-plan: 
-  runs-on: 
+  runs-on: newrunner
+  
+
